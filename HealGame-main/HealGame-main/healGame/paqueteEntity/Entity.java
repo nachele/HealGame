@@ -1,21 +1,21 @@
 package paqueteEntity;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
-import java.io.File;
+import javax.swing.*;
 //clase para pintar imagenes con una x e y.
 public class Entity extends JPanel {
     // Propiedades.
-    private String path;
-    private int x;
-    private int y;
-    private int ancho;
-    private int alto;
-    private int speed;
-    private BufferedImage imagen;
+    public String path;
+    public int x;
+    public int y;
+    public int ancho;
+    public int alto;
+    public int speed;
+    public BufferedImage imagen;
 
     // Constructor.
     public Entity(String path, int x, int y, int ancho, int alto, int speed) {
@@ -45,7 +45,7 @@ public class Entity extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         if (this.imagen != null) {
-            System.out.println("Dibujando...");  // Esto nos confirma que paintComponent se llama
+             // Esto nos confirma que paintComponent se llama
             //donde quiero que se pinte la imagen y tamaño del panel el tamaño e la imagen y posicion en ventana esta en setBounds
             g.drawImage(this.imagen,0, 0, this.ancho, this.alto, null);
         } else {
