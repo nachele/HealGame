@@ -1,0 +1,48 @@
+rpg con niveles tiene un poder de curar a los enfermos poniendole las manos y para llegar al enfermo a de adquirir energía por la zona para luego sanar al enfermo 
+puede adquirir energia sentandose alado de un arbol o abrazando a una persona o dandose un baño en el agua, comiendo manzanas, o corriendo durante un rato
+cada enfermo requerira de un nivel de energia para curarlos la energia sera mayor o menor dependiendo de el orden en el que se ejecuten ciertas acciones.
+porejemplo si despues de ejercicio se mete en el agua el orden es ideal y el jugador adquiero x energia adicional cando acumule la suficiente podra curar al enfermo el jugador lo sabra porque el aura cambia de color a uno dorado
+en cada nivel se van añadiendo nuevas maneras de añadir energia y habra que combinarlas de la manera correcta para poder curar al enfermo.
+
+############################################################################################################
+ahumentadores de energia:
+	[cercaArbol, agua, risa, meditacion, ejercicio, comida, oracion de gratitud, abrazo]
+
+nivel 1 (el enfermo tiene una enfermedad de 1):
+	-ncontraremos un arbol el muñeco enfermo estara dentro de un casita en una cama.
+nivel 2 (el enfermo tiene una enfermedad de 4): 
+	-ncontraremos un arbol y un lago si entramos antes en el lago y luego abrazamos el arbol es como humm esta mojado y la energia ahumenta menos cada uno ahumentara 2 en el orden correcto de no ser asi ahumenta 1
+	 el muñeco enfermo estara dentro de una casita en una cama
+nivel 3 (el enfermo tiene una enfermedad de 6):
+	-ncontramos comida, ejercicio y oracion de gratitud el orden en el que usarlos es ejercicio comida y oracion en el orden correcto ahumentara 2 de energia cada item en otro orden 1 de energia cada uno
+	el muñeco se encontrara en una cama.
+nivel 4 (el enfermo tiene una enfermedad de nivel 16):
+	- agua  risa meditacion abrazo
+nivel 5 (el enfermo tiene una enfermedad de nivel 25):
+	ejercicio agua  comida oracion de gratitud arbol  risa meditacion abrazo.
+
+
+tendra un menu para iniciar el juego elegir solo los completados y reiniciar nivel.
+en ajustes si tal se podra ajustar el volumen del audio.
+de fondo tendra una musiquita agradable.
+	opcion 1 iniciar juego
+	opcion 2 elegir los completados
+	opscion 3 reiniciar nivel
+
+
+
+
+
+
+
+1er -> paquete ventana de 800 x 800
+2er -> ser capaz de dibujar un sprite
+3er -> clase mapa tiene texto.
+4ar -> clase jugador
+5 -> clase menu
+6-> clase niveles
+7 -> clase controles
+8 -> clase colisionDetection
+
+
+
